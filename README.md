@@ -1,4 +1,4 @@
-# Projector on Docker
+# Prometheus on Docker
 
 ![](https://libs.websoft9.com/common/websott9-cloud-installer.png) 
 
@@ -59,7 +59,7 @@ ln -sf /usr/local/bin/docker-compose  /usr/bin
 sudo systemctl start docker
 ```
 
-#### Install Projector
+#### Install Prometheus
 
 We assume that you are already familiar with Docker, and you can modify [docker-compose file](docker-compose.yml) by yourself
 
@@ -99,11 +99,11 @@ By default, the available users are:
 | phpmyadmin | 9090 | Web-GUI database management tool | Y |
 ## Documentation
 
-[Projector Administrator Guide](https://support.websoft9.com/docs/prometheus)
+[Prometheus Administrator Guide](https://support.websoft9.com/docs/prometheus)
 
 ## Enterprise Support
 
-If you want to get our Enterprise Support to ensure high availability of applications, you can subscribe our [Projector Enterprise Support](https://apps.websoft9.com/prometheus) 
+If you want to get our Enterprise Support to ensure high availability of applications, you can subscribe our [Prometheus Enterprise Support](https://apps.websoft9.com/prometheus) 
 
 What you get with a Enterprise Support subscription?
 

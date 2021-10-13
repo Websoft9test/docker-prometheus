@@ -1,4 +1,4 @@
-# Projector on Docker
+# Prometheus on Docker
 
 ![](https://libs.websoft9.com/common/websoft9-cloud-installer.png) 
 
@@ -6,7 +6,7 @@
 
 [简体中文](/README-zh.md) | [English](/README.md) 
 
-本项目是由 [Websoft9](https://www.websoft9.com) 研发的 **云原生程序** ，大大简化 Projector 复杂的安装及配置。
+本项目是由 [Websoft9](https://www.websoft9.com) 研发的 **云原生程序** ，大大简化 Prometheus 复杂的安装及配置。
 
 ## 系统要求
 
@@ -63,7 +63,7 @@ ln -sf /usr/local/bin/docker-compose  /usr/bin
 sudo systemctl start docker
 ```
 
-#### 安装 Projector
+#### 安装 Prometheus
 
 直接运行下面的命令快速安装应用。如果你熟悉 Docker，建议先修改 [docker-compose](docker-compose-production.yml) 文件以满足自己的需求
 
@@ -75,7 +75,7 @@ sudo docker-compose -f docker-compose.yml --env-file .env up -d
 
 ### 常见问题
 
-#### 安装 Projector 前需要更改密码吗？
+#### 安装 Prometheus 前需要更改密码吗？
 
 是的, 在生产环境中，您应该在 docker-compose 文件中修改所有数据库密码和应用程序密码
 
@@ -102,15 +102,15 @@ sudo docker-compose -f docker-compose.yml --env-file .env up -d
 
 | 名称 | 端口号 | 用途 |  必要性 |
 | --- | --- | --- | --- |
-| prometheus-server | 9002 | 浏览器访问 Projector | Y |
+| prometheus-server | 9002 | 浏览器访问 Prometheus | Y |
 | phpmyadmin | 9090 | 数据库可视化管理工具 | Y |
 ## 文档
 
-[Projector 管理员手册](https://support.websoft9.com/docs/prometheus)
+[Prometheus 管理员手册](https://support.websoft9.com/docs/prometheus)
 
 ## 企业级支持
 
-如果需要企业级支持，请订阅我们提供的 [Projector 企业级支持版](https://apps.websoft9.com/prometheus) 
+如果需要企业级支持，请订阅我们提供的 [Prometheus 企业级支持版](https://apps.websoft9.com/prometheus) 
 
 订阅企业级产品后，您可获得：
 
