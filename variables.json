@@ -1,6 +1,6 @@
 {
   "name": "prometheus",
-  "trademark": "Projector",
+  "trademark": "Prometheus",
   "installpath": "/data/wwwroot/prometheus",
   "compose_file": "docker-compose.yml",
   "fork_url": "",
@@ -23,7 +23,7 @@
     {
       "name": "prometheus-server",
       "port": "9002",
-      "description_cn": "浏览器访问 Projector",
+      "description_cn": "浏览器访问 Prometheus",
       "description_en": "Web-GUI database management tool",
       "required": "Y"
     },
